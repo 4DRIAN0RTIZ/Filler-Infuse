@@ -5,12 +5,12 @@ FillerInfuse
 
 Este script toma el canal alfa de la imagen que le pasen como primer argumento y el color en hexadecimal o una imagen en segundo argumento y rellena el fondo de la imagen con ese color o imagen. Si el segundo argumento es una imagen JPG u otro formato, la convertirá a PNG antes de usarla como fondo.
 
-Ejemplo de uso: python3 Fill-I.py imagen.png FFFFFF
-                python3 Fill-I.py imagen.png fondo.jpg
+Ejemplo de uso: python3 Filler-Infuse.py imagen.png FFFFFF
+                python3 Filler-Infuse.py imagen.png fondo.jpg
 
 Autor: 4DRIAN0RTIZ
 Versión: 1.0.0
-Fecha: 15-08-2023
+Fecha: 16-08-2023
 """
 
 import re
